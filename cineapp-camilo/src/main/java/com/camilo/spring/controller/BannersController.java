@@ -27,7 +27,7 @@ import com.camilo.spring.util.Utileria;
 @RequestMapping("/banners/")
 public class BannersController {
 
-	// Ejercicio: Inyectar instancia de la clase de servicio
+	// Ejercicio: Inyectar instancia de la clase de servicio --Inyeccion de dependencia
 	@Autowired
 	private IBannersService serviceBanner;
 		

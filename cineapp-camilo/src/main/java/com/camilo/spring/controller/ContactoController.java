@@ -16,6 +16,7 @@ import com.camilo.spring.services.IPeliculasService;
 @Controller
 public class ContactoController {
 	
+	//Inyeccion de dependencia
 	@Autowired
 	IPeliculasService servicePeliculas;
 
